@@ -16,8 +16,9 @@ public class MaiorDos10 {
 		    System.out.println("Insira o " + i + "º número: ");
 		    numProx = leia.nextInt();
 		    
-		    if (numProx>resul)
-		    resul = numProx;
+		    if (numProx>resul) {
+		    	resul = numProx;	
+		    }
 		}
 		System.out.println("Maior número: "+resul);
 	}
