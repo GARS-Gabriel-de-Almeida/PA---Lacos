@@ -7,10 +7,12 @@ public class MaiorDos10 {
 
 		Scanner leia = new Scanner(System.in);
 		
-		int i, numProx;
-		int resul = 0;
+		int i, numProx, resul;
 		
-		for (i = 1; i <= 10; i++) {
+		System.out.println("Insira o 1º número: ");
+	    resul = leia.nextInt();
+	    
+		for (i = 2; i <= 10; i++) {
 		    System.out.println("Insira o " + i + "º número: ");
 		    numProx = leia.nextInt();
 		    
